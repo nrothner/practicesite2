@@ -1,0 +1,87 @@
+
+body, html {
+	padding: 0em  1.5em 1em;
+	font-family: helvetica;	
+}
+
+ .nav {
+ 	font-weight: bold;
+ 	text-align:center;
+ 	word-spacing: 2em;
+ 	padding: 2em 1em 1em 0em;
+ 	font-color: white;
+ }
+
+/* Code from google: Sticky footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height:1.5em;
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+	background-color: lightblue;
+	font-size: 30px;
+	padding: .5em;
+}
+
+a {
+	font-family: helvetica;
+}
+
+a:hover {
+	color: lightblue;
+}
+
+/* CSS code from practice module. Updating and customizing colors. 
+Removing code that isn't necessary. Trying to better understand CSS in relationship to JS and HTML 
+Commenting out some code just to see how appearance changes and what everything does.*/
+
+#tabs{
+	height:30px;
+	overflow:hidden;
+}
+
+#tabs ul, #tabs li {
+	margin:0;
+	padding:0;
+	font-weight: bold;
+}
+
+
+#tabs > ul > li{
+	margin:0 2px 0 0;
+	padding:7px 10px;
+	display:block;
+	float:left;
+	color:#FFF;
+	border-top-left-radius:4px;
+	border-top-right-radius: 4px;
+	background: #68a7ca; 
+
+}
+
+#tabs > ul > li:hover{
+	background: #b2d3e6;
+}
+
+#tabs > ul > .active{
+	background: #e3e3e3;
+	color: black;
+}
+
+#containers div {
+	background: #e3e3e3;
+	padding:10px 10px 25px;
+	margin:0;
+	width: 70%;
+	color:#333;
+}
+#tabs a {
+	text-decoration: none;
+	color: black;
