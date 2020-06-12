@@ -24,7 +24,7 @@ p:first-of-type {
 	text-indent: 2em;
   }
 
-article {
+article, #majors, #skills {
 	padding: 10px 20px 20px 10px;
 	margin: 10px 20px;
 	background-color: rgba(255, 218, 185, 0.788);
@@ -35,6 +35,15 @@ article {
 	margin: auto;
 	text-align: center;
 	list-style-type: none;
+}
+
+#skills {
+	text-align: left;
+	margin: left;
+}
+
+#skills h2 {
+	text-align: center;
 }
 
 img {
