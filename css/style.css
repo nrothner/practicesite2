@@ -8,9 +8,40 @@ body, html {
  	font-weight: bold;
  	text-align:center;
  	word-spacing: 2em;
- 	padding: 2em 1em 1em 0em;
- 	font-color: white;
+	padding: 2em 1em 1em 0em;
  }
+
+ .nav2 {
+	font-weight: bold;
+	word-spacing: 2em;
+}
+
+p, .projects {
+	line-height:1.5em;	
+} 
+
+p:first-of-type {
+	text-indent: 2em;
+  }
+
+article {
+	padding: 10px 20px 20px 10px;
+	margin: 10px 20px;
+	background-color: rgba(255, 218, 185, 0.788);
+	border-color:lightblue;
+	border-width: 10px;
+	border-style: solid;
+	width: 30%;
+	margin: auto;
+	text-align: center;
+	list-style-type: none;
+}
+
+img {
+	border-color:lightblue;
+	border-width: 20px;
+	border-style: double;
+  }
 
 /* Code from google: Sticky footer */
 footer {
@@ -28,6 +59,7 @@ h1 {
 	background-color: lightblue;
 	font-size: 30px;
 	padding: .5em;
+	font-variant-caps: small-caps;
 }
 
 a {
